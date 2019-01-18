@@ -1,0 +1,17 @@
+{
+  "name": "jscoursach",
+  "version": "1.0.0",
+  "description": "EFN",
+  "main": "KeyEventListener.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "kalendula",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.5",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}

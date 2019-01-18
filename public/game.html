@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Escape from Nobody</title>
+</head>
+<body>
+        <style>
+                body{
+                 background-color:grey;
+                }
+        </style>
+</p>
+<p align = "center"><canvas width="725" height="500"></canvas></p>
+<script src="js/PointTimer.js" ></script>
+<script src="js/Draw.js" ></script>
+<script src="js/menu.js" ></script>
+    <script src="js/level1.js" ></script>
+    <script src="js/level3.js" ></script>
+    <script src="js/level4.js" ></script>
+    <script src="js/level5.js" ></script>
+    <script src="js/level6.js" ></script>
+    <script src="js/level8.js" ></script>
+    <script src="js/level9.js" ></script>
+    <script src="js/level7.js" ></script>
+    <script src="js/level2.js" ></script>
+    <script src="js/KeyEventListener.js" ></script>
+<script>
+var current_player = "a";
+var player_a = document.createElement("audio");
+var player_b = document.createElement("audio");
+
+player_a.src = "audio/audio.mp3";
+player_b.src = player_a.src;
+
+function loopIt(){
+    var player = null;
+
+    if(current_player == "a"){
+        player = player_b;
+        current_player = "b";
+    }
+    else{
+        player = player_a;
+        current_player = "a";
+    }
+
+    player.play();
+
+    setTimeout(loopIt, 27100); 
+}
+
+loopIt();
+</script>
+    <p align="center" id="p"> 
+</body>
+</html>
