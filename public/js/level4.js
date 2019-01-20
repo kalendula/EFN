@@ -1,9 +1,4 @@
-var Enemy1;
-var Enemy2;
-var isEnemy1Up=true;
-var isEnemy2Up=false;
-var isLevel4End=false;
-var timer4;
+
 
 function begin4(){
     Wall = [];
@@ -19,7 +14,6 @@ function begin4(){
     Enemy1.y=14;
     Enemy2= {};
     Enemy2.x=12;
-    isLevel4End=false;
     Enemy2.y=3;
     timer4 = setInterval(move,20);
     drawTeleport2();

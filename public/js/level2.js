@@ -1,5 +1,3 @@
-isLevel2End=false;
-
 function begin2(){
 Wall = [];
 cv = document.querySelector("canvas");

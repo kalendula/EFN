@@ -4,11 +4,7 @@ var fs = require("fs");
 var Username ="";
 var app = express();
 var jsonParser = bodyParser.json();
-app.use(express.static('public'))
-//app.use(express.static(__dirname + "/public"));
-app.get("/index", function(req, res){
-    res.sendFile("D:\\jsCoursach\\public\\index.html");
-});
+app.use(express.static(__dirname + "/public"));
 app.get("/submit/1", function(req, res){
     var content = fs.readFileSync("users.json", "utf8");
     var users = JSON.parse(content);
@@ -98,10 +94,10 @@ app.get("/submit/users/:id", function(req, res){
 app.get("/submit", function(req, res){
     var nick = req.param('nick'); 
     if (nick=="admin"){
-    res.sendFile("D:\\jsCoursach\\public\\admin.html");
+    res.sendFile(__dirname+"/public/admin.html");
     }
     else {
-    res.sendFile("D:\\jsCoursach\\public\\game.html");
+    res.sendFile(__dirname+"/public/game.html");
   
     var content = fs.readFileSync("users.json", "utf8");
     var users = JSON.parse(content);

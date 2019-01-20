@@ -1,13 +1,5 @@
-    var Wall;
-    var CELL_SIZE=25;
-    var T_CELL_SIZE=8;
-    var Hero;
-    var isLevel8End=false;
     var isBossMoveToHero=false;
     var isBossMoveBack=false;
-    var Boss = {};
-    var story = "We meet again, C6L. Say \"Goodbye\" and REST IN PEACE!               ";
-    var str="";
     var isStoryEnd=false;
     var letter = 0;
     var timer8;
@@ -27,6 +19,7 @@
   Hero = {};
   Hero.x = 0;
   Hero.y = 9;
+  Boss = {};
   Boss.x=23;
   Boss.y=9;
   letter=0;

@@ -8,7 +8,6 @@ var isBullet71FlyEnd=false;
 var isBullet72FlyEnd=false;
 var isBullet73FlyEnd=false; 
 var timer7;
-var isLevel7End=false;
 
 function begin7(){
     Wall = [];
@@ -17,7 +16,6 @@ function begin7(){
     Hero = {};
     Hero.x = 0;
     Hero.y = 1;
-    isLevel7End=false;
     makeBullet7();
     Enemy71.x = 4;
     Enemy71.y = 15;

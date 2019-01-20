@@ -1,17 +1,11 @@
-    var cv;
-    var cx;
-    var CELL_SIZE=25;
-    var T_CELL_SIZE=8;
-    var Hero;
-    var story9 = "Freeeeeeeeeeeeeeeeeeeeeeeeeeeedom!         "
+   
+  
     var storyStart=false;
     var storyEnd=false;
     var str9="";
     var i9=0;
     var str91 = "";
     var str92 = "";
-    var isLevel9Begin=false;
-    var isLevel9End=false;
     var isEnter=false;
     
   

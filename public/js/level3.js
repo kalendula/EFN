@@ -1,7 +1,3 @@
-var isButton1;
-var isButton2;
-isLevel3End=false;
-
 function begin3(){
     isButton1=false;
     isButton2=false;

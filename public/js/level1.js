@@ -1,22 +1,3 @@
-class WallPart {
-    constructor(x, y) {
-      this.x = x;
-      this.y = y;
-    }}
-    
-  
-    var c=1;
-    var Wall;
-    var cv;
-    var cx;
-    var CELL_SIZE=25;
-    var T_CELL_SIZE=8;
-    var Hero;
-    isLevel1End=false;
-    var Boss;
-    var pointTimer;
-  
-  
   function begin1(){
   pointTimer = setInterval(drawTimer,500);
   Wall = [];

@@ -1,15 +1,7 @@
-var Wall;
-    var cv;
-    var cx;
-    var CELL_SIZE;
-    var T_CELL_SIZE;
-    var Hero;
-    var Boss;
-    var isStartRun;
+   var isStartRun;
     var is410;
     var is42;
     var is192;
-    var isLevel5End;
     var timer5;
 
   
@@ -18,7 +10,6 @@ isStartRun=false;
 is410 = false;
 is42=false;
 is192=false;
-isLevel5End = false;
   Wall = [];
   cv = document.querySelector("canvas");
   cx = cv.getContext("2d");

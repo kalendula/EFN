@@ -1,4 +1,4 @@
-var isLevel6End=false;
+
 var is102Button=false;
 var is212Button=false;
 var is2114Button=false;
@@ -16,7 +16,6 @@ var timer6;
   cv = document.querySelector("canvas");
   cx = cv.getContext("2d");
   Hero = {};
-  isLevel6End=false;
   Hero.x = 0;
   Hero.y = 8;
   makeBullet();

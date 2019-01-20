@@ -1,27 +1,19 @@
-
-     var isAbout=false;
-    var isLeaderBoard=false;
-    var c=1;
-    var Wall;
-    var cv;
-    var cx;
-    var CELL_SIZE=25;
-    var T_CELL_SIZE=8;
-    var Hero;
-    var Boss;
+var isAbout=false;
+var isLeaderBoard=false;
   
   
   function begin0(){
   Wall = [];
-  cv = document.querySelector("canvas");
-  cx = cv.getContext("2d");
-  Hero = {};
-   Boss= {};
-   Boss.x=30;
-    Boss.y=30;
-  Hero.x = 0;
-  Hero.y = 8; 
-   floorimg.onload = function (){  cx.drawImage(floorimg,0,0);
+cv = document.querySelector("canvas");
+cx = cv.getContext("2d");
+Hero = {};
+Boss= {};
+Boss.x=30;
+Boss.y=30;
+Hero.x = 0;
+Hero.y = 8; 
+floorimg.onload = function (){  
+    cx.drawImage(floorimg,0,0);
     INZWall0();
     draw0();
 setTimeout(function (){draw0();},1000)};
