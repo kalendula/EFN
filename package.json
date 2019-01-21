@@ -1,7 +1,7 @@
 {
-  "name": "jscoursach",
+  "name": "efn",
   "version": "1.0.0",
-  "description": "EFN",
+  "description": "just small game about small guy",
   "main": "KeyEventListener.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
