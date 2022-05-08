@@ -112,7 +112,7 @@ document.addEventListener('keydown', function(event) {
 
     }
     //right
-    if (event.keyCode==39){
+    if (event.keyCode==39 || event.keyCode==68){
       if (isDead){}
       else{
         isHeroGoLeft=false;
@@ -179,9 +179,8 @@ document.addEventListener('keydown', function(event) {
                         }}}
 
 }}}
-
 //left
-    if (event.keyCode==37){
+    if (event.keyCode==37 || event.keyCode == 65){
       if (isDead){}
       else {
         isHeroGoLeft=true;
@@ -219,7 +218,7 @@ document.addEventListener('keydown', function(event) {
         }}}}
 
         //down
-    if (event.keyCode==40){
+    if (event.keyCode==40 || event.keyCode == 83){
       if (isDead){}
       else{
       futStep=Hero.y+1;
@@ -296,7 +295,7 @@ document.addEventListener('keydown', function(event) {
 
 
         //up
-    if (event.keyCode==38){
+    if (event.keyCode==38 || event.keyCode == 87){
       if (isDead){}
       else{
       futStep=Hero.y-1;
